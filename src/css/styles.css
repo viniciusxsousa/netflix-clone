@@ -415,4 +415,30 @@ p, a {
         text-align: left;
         line-height: 1.3;
     }
+
+    .perguntas__title {
+        font-size: 2.5em;
+    }
+
+    .perguntas__list {
+        width: 80%;
+        margin: auto;
+        font-size: 1.16em;
+    }
+
+    .perguntas__content {
+        padding: 0.1em 0.1em;
+    }
+
+    .perguntas__content--disabled {
+        padding: 0;
+    }
+
+    .perguntas__content p {
+        line-height: 1.2;
+    }
+
+    .perguntas__text {
+        width: 70%;
+    }
 }
