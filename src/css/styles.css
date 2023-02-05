@@ -143,6 +143,7 @@ p, a {
 
 .baixe {
     text-align: center;
+    border-bottom: 8px solid #222;
 }
 
 .baixe__description {
