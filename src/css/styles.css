@@ -31,6 +31,12 @@ p, a {
     font-family: 'netflix-sans-regular';
 }
 
+.clearfix::before {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .forms input[type='email'] {
     width: 100%;
     padding: 1em 0.5em;
@@ -188,4 +194,110 @@ p, a {
     margin: 0;
     font-size: 0.8em;
     color: #0071EB;
+}
+
+.perguntas {
+   text-align: center; 
+   border-bottom: 8px solid #222;
+   padding-bottom: 3em;
+}
+
+.perguntas__list {
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.perguntas__btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: inherit;
+    padding: .4em 1em;
+    background-color: #303030;
+    border: none;
+    color: white;
+    margin-top: .5em;
+    cursor: pointer;
+}
+
+.perguntas__btn p {
+    margin: 0;
+}
+
+.perguntas__btn p:nth-child(1) {
+    align-self: center;
+}
+
+.perguntas__btn_icon {
+    font-size: 2.1em;
+    font-family: 'netflix';
+}
+
+.perguntas__content {
+    background-color: #303030;
+    margin-top: .1em;
+    padding: 1em 0.1em;
+}
+
+.perguntas__content P {
+    line-height: 1.4;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.perguntas__content--disabled {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.perguntas__text{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perguntas .forms {
+    width: 85%;
+    margin: auto;
+}
+
+.footer {
+    padding: 2em 3em;
+}
+
+.footer__text {
+    color: #737373;
+    font-size: 1em;
+}
+
+.footer__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__list li {
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+.footer__list a {
+    text-decoration: none;
+    color: #737373;
+    font-size: .85em;
+}
+
+.footer__list a:hover {
+    text-decoration: underline;
+}
+
+.footer__netflix {
+    clear: both;
+    font-size: 0.8em;
+    color: #737373;
+    padding-top: 2em;
 }

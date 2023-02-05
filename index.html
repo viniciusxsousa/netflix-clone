@@ -71,61 +71,94 @@
         </div>
     </section>
 
-    <section>
+    <section class="perguntas">
         <h2>Perguntas frequentes</h2>
-        <ul>
+        <ul class="perguntas__list">
             <li>
-                <button>O que é a Netflix?</button>
-                <div>
+                <button class="perguntas__btn">
+                    <p>O que é a Netflix?</p>
+                    <p class="perguntas__btn_icon">+</p>
+                </button>
+                <div class="perguntas__content perguntas__content--disabled">
                     <p>A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.</p>
                     <p>Você pode assistir a quantos filmes e séries quiser, quando e onde quiser – tudo por um preço mensal acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes. </p>
                 </div>
             </li>
+
             <li>
-                <button>Quanto custa a Netflix?</button>
-                <div>
+                <button class="perguntas__btn" >
+                    <p>Quanto custa a Netflix?</p>
+                    <p class="perguntas__btn_icon">+</p>
+                </button>
+                <div class="perguntas__content perguntas__content--disabled">
                     <p>Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$18,90 a R$55,90 por mês. Sem contrato nem taxas extras.</p>
                 </div>
             </li>
+
             <li>
-                <button>O que muda no plano básico com anúncios?</button>
-                <div>
+                <button class="perguntas__btn">
+                    <p>O que muda no plano básico com anúncios?</p> 
+                    <p class="perguntas__btn_icon">+</p>
+                </button>
+                <div class="perguntas__content perguntas__content--disabled">
                     <p>O plano Básico com anúncios é uma excelente maneira de assistir a séries e filmes por um preço mais baixo. Você pode assistir a seus títulos favoritos em qualquer aparelho e com intervalos limitados para anúncios. Este plano não permite downloads nem contém determinados filmes e séries com restrições de licenciamento. Há também algumas restrições de localização e aparelho. Saiba mais.</p>
                 </div>
             </li>
+
             <li>
-                <button>Onde posso assistir?</button>
-                <div>
+                <button class="perguntas__btn">
+                    <p>Onde posso assistir?</p>
+                    <p class="perguntas__btn_icon">+</p>
+                </button>
+                <div class="perguntas__content perguntas__content--disabled">
                     <p>Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.</p>
                     <p>Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou Windows 10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com a Internet. Leve a Netflix com você para qualquer lugar.</p>
                 </div>
             </li>
+
             <li>
-                <button>Como faço para cancelar?</button>
-                <div>A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.</div>
+                <button class="perguntas__btn">
+                    <p>Como faço para cancelar?</p>
+                    <p class="perguntas__btn_icon">+</p>
+                </button>
+                <div class="perguntas__content perguntas__content--disabled">
+                    <p>A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.</p>
+                </div>
             </li>
+
             <li>
-                <button>Onde eu posso assistir a Netflix?</button>
-                <div>A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.</div>
+                <button class="perguntas__btn">
+                   <p>Onde eu posso assistir a Netflix?</p>
+                   <p class="perguntas__btn_icon">+</p>
+                </button>
+                <div class="perguntas__content perguntas__content--disabled">
+                    <p>A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.</p>
+                </div>
             </li>
+
             <li>
-                <button>A Netflix é adequada para crianças?</button>
-                <div>
+                <button class="perguntas__btn">
+                    <p>A Netflix é adequada para crianças?</p>
+                    <p class="perguntas__btn_icon">+</p>
+                </button>
+                <div class="perguntas__content perguntas__content--disabled">
                     <p>A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos responsáveis.</p>
                     <p>O recurso de controle parental, incluso nos perfis para crianças e protegido por PIN, permite restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos específicos que você não quer que elas assistam.</p>
                 </div>
             </li>
         </ul>
-        <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-        <form action="#" method="get">
-            <input type="email">
-            <input type="submit" value="Vamos lá">
+
+        <p class="perguntas__text">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+
+        <form class='forms' action="#" method="get">
+            <input type="email" placeholder="email">
+            <input type="submit" value="Vamos lá >">
         </form>
     </section>   
     
-    <footer>
-        <p>Dúvidas? Ligue 0800 591 8942</p>
-        <ul>
+    <footer class="footer">
+        <p class="footer__text">Dúvidas? Ligue 0800 591 8942</p>
+        <ul class="footer__list clearfix">
             <li><a href="#">Perguntas Frequentes</a></li>
             <li><a href="#">Relações com investidores</a></li>
             <li><a href="#">Formas de assistir</a></li>
@@ -144,7 +177,7 @@
             <li><a href="#">Preferênias de cookies</a></li>
             <li><a href="#">Avissos legais</a></li>
         </ul>
-        <p>Netflix Brasil</p>
+        <p class="footer__netflix">Netflix Brasil</p>
     </footer>
 </body>
 </html>
