@@ -441,4 +441,10 @@ p, a {
     .perguntas__text {
         width: 70%;
     }
+
+    .footer__list li {
+        width: 30%;
+        float: left;
+        margin: 1% 1.5%;
+    }
 }
