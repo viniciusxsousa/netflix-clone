@@ -4,55 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+
     <title>Viniflix</title>
 </head>
 <body>
-    <header>
-        <img src="src/imgs/logo.png" alt="logo da netflix.">
-        <nav>
-            <a href="#">Entrar</a>
-        </nav>
-    </header>
+    <div class="background">
+        <header class="header">
+            <div class="header__logo">
+                <img src="src/imgs/logo.png" alt="logo da netflix.">
+            </div>
+            <nav class="header__nav">
+                <a href="#">Entrar</a>
+            </nav>
+        </header>
+    
+        <section class="topContent">
+            <h1>Filmes, séries e muito mais. Sem limites.</h1>
+            <p>Assista onde quiser. Cancele quando quiser.</p>
+            <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+            <form class="forms" action="#" method="post">
+                <input type="email" placeholder="Email">
+                <input type="submit" value="Vamos lá >">
+            </form>
+        </section>
+    </div>
 
-    <section>
-        <h1>Filmes, séries e muito mais. Sem limites.</h1>
-        <h2>Assista onde quiser. Cancele quando quiser.</h2>
-        <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-        <form action="#" method="post">
-            <input type="email">
-            <input type="submit" value="Vamos lá">
-        </form>
+    <section class="aproveite">
+        <h2 class="aproveite__title">Aproveite na TV.</h2>
+        <p class="aproveite__description">Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</p>
+        <div class="aproveite__img">
+            <img src="src/imgs/tv.png" alt="moldura de uma tv.">
+        </div>
     </section>
 
-    <section>
-        <h2>Aproveite na TV.</h2>
-        <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</p>
-        <img src="src/imgs/tv.png" alt="moldura de uma tv.">
-    </section>
-
-    <section>
+    <section class="assista">
         <h2>Assista quando quiser.</h2>
-        <p>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
-        <img src="src/imgs/device-pile.png" alt="moldura de dispositivos portateis.">
+        <p class="assista__description">Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
+        <div class="assista__img">
+            <img src="src/imgs/device-pile.png" alt="moldura de dispositivos portateis.">
+        </div>
     </section>
 
-    <section>
+    <section class="kid">
         <h2>Crie perfis para crianças.</h2>
-        <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</p>
-        <img src="src/imgs/crianca.png" alt="imagem de representação infantil.">
+        <p class="kid__description">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</p>
+        <div class="kid__img">
+            <img src="src/imgs/crianca.png" alt="imagem de representação infantil.">
+        </div>
     </section>
 
-    <section>
+    <section class="baixe">
         <h2>Baixe séries para assistir offline.</h2>
-        <p>Disponível em todos os planos, exceto no Básico com anúncios.</p>
-        <img src="src/imgs/mobile-0819.jpg" alt="imagem de um dispositivo móvel.">
-        <div>
+        <p class="baixe__description">Disponível em todos os planos, exceto no Básico com anúncios.</p>
+        <img class="baixe__img" src="src/imgs/mobile-0819.jpg" alt="imagem de um dispositivo móvel.">
+        <div class="baixe__download">
             <img src="src/imgs/boxshot.png" alt="capa do stranger things">
             <div>
-                <p>Stranger Things</p>
-                <p>Download em andamento</p>
+                <p class="baixe__download__title">Stranger Things</p>
+                <p class="baixe__download__description">Download em andamento...</p>
             </div>
-            <p>Icone</p>
+            <img src="src/imgs/download.gif" alt="icone de download">
         </div>
     </section>
 
