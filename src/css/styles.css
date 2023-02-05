@@ -363,6 +363,20 @@ p, a {
     }
 
     .assista__description {
-        font-size: 1.125em;
+        font-size: 1.25em;
+    }
+
+    .kid {
+        padding: 3em;
+    }
+
+    .kid__title {
+        font-size: 2.5em;
+    }
+
+    .kid__description {
+        font-size: 1.25em;
+        width: 90%;
+        padding-bottom: 1em;
     }
 }
