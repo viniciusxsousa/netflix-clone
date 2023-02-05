@@ -163,7 +163,7 @@ p, a {
 
 .baixe__download {
     display: flex;
-    width: 300px;
+    width: 18.75em;
     margin: auto;
     border: 3px solid #222;
     transform: translateY(-100px);
@@ -378,5 +378,41 @@ p, a {
         font-size: 1.25em;
         width: 90%;
         padding-bottom: 1em;
+    }
+
+    .baixe {
+        padding: 3em 3em 0;
+    }
+    
+    .baixe__title {
+        font-size: 2.5em;
+    }
+
+    .baixe__description {
+        font-size: 1.25em;
+        width: 100%;
+    }
+
+    .baixe__img {
+        width: 100%;
+    }
+
+    .baixe__download div{
+        margin-top: 0.3em;
+    }
+
+    .baixe__download img {
+        width: 50px;
+        height: 60px;
+    }
+
+    .baixe__download__title {
+        font-size: 1em;
+    }
+
+    .baixe__download__description {
+        font-size: 0.9em;
+        text-align: left;
+        line-height: 1.3;
     }
 }
