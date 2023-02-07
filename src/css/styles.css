@@ -163,11 +163,16 @@ p, a {
 .kid {
     text-align: center;
     border-bottom: 8px solid #222;
-    padding: 2em 0 2em;
+    padding: 2em 0 4em;
+}
+
+.kid__title {
+    font-size: 2em;
 }
 
 .kid__description {
-    width: 80%;
+    width: 90%;
+    font-size: 1.125em;
     margin: auto;
 }
 
