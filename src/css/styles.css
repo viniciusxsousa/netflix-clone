@@ -38,9 +38,10 @@ p, a {
 }
 
 .forms input[type='email'] {
-    width: 100%;
+    width: 90%;
     padding: 1em 0.5em;
     margin-bottom: 1em;
+    border-radius: 5px;
 }
 
 .forms input[type='email']::placeholder {
@@ -54,6 +55,13 @@ p, a {
     border: none;
     padding: 0.7em 1em;
     font-family: 'netflix-sans-regular';
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.forms input[type='submit']:hover {
+    background-color: rgb(190, 0, 0);
 }
 
 .background {
@@ -92,9 +100,13 @@ p, a {
 }
 
 .topContent {
-    padding: 2.5em 2em 3.5em;
+    padding: 0em 2em 3.5em;
     text-align: center;
     border-bottom: 0.5em solid #222;
+}
+
+.topContent__title {
+    font-size: 2em;
 }
 
 .aproveite {
