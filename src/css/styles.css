@@ -242,7 +242,11 @@ p, a {
 .perguntas {
    text-align: center; 
    border-bottom: 8px solid #222;
-   padding-bottom: 3em;
+   padding: 1em 2em 3em;
+}
+
+.perguntas__title {
+    font-size: 2em;
 }
 
 .perguntas__list {
@@ -257,7 +261,7 @@ p, a {
     justify-content: space-between;
     width: 100%;
     text-align: inherit;
-    padding: .4em 1em;
+    padding: 1em 1em;
     background-color: #303030;
     border: none;
     color: white;
@@ -297,7 +301,8 @@ p, a {
 }
 
 .perguntas__text{
-    width: 80%;
+    width: 90%;
+    margin-top: 3em;
     margin-left: auto;
     margin-right: auto;
 }
