@@ -163,7 +163,7 @@ p, a {
 
 .baixe__download {
     display: flex;
-    width: 18.75em;
+    width: 58%;
     margin: auto;
     border: 3px solid #222;
     transform: translateY(-100px);
@@ -446,5 +446,57 @@ p, a {
         width: 30%;
         float: left;
         margin: 1% 1.5%;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .topContent__paragraf {
+        font-size: 1.437em;
+    }
+
+    .forms input[type='email'] {
+        display: block;
+        width: 31.25em;
+        margin: auto;
+        margin-bottom: 1em;
+        padding: 1em 1em;
+    }
+
+    .forms input[type='email']::placeholder {
+        font-size: 1em;
+    }
+
+    .aproveite__img {
+        width: 37.5em;
+    }
+
+    .assista__img {
+        width: 37.5em;
+    }
+
+    .kid__img {
+        width: 37.5em;
+    }
+
+    .baixe__img {
+        width: 37.5em;
+    }
+
+    .baixe__download {
+        width: 388px;
+    }
+
+    .baixe__download__icon {
+        margin-left: 3.5em
+    }
+
+    .perguntas__text {
+        font-size: 1.437em;
+    }
+
+    .footer__list li {
+        width: 23%;
+        float: left;
+        margin: 1% 1%;
     }
 }
