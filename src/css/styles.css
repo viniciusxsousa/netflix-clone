@@ -80,10 +80,15 @@ p, a {
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 0.875em;
+    font-weight: bold;
     background-color: red;
-    padding: 0.4em;
-    border-radius: 3px;
+    padding: .5em 1em;
+    border-radius: 5px;
+}
+
+.header__nav a:hover {
+    background-color: rgb(190, 0, 0);
 }
 
 .topContent {
