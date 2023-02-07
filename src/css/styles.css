@@ -187,7 +187,12 @@ p, a {
 
 .baixe {
     text-align: center;
+    padding: 2em .5em .5em;
     border-bottom: 8px solid #222;
+}
+
+.baixe__title {
+    font-size: 2em;
 }
 
 .baixe__description {
@@ -201,7 +206,7 @@ p, a {
 
 .baixe__download {
     display: flex;
-    width: 58%;
+    width: 62%;
     margin: auto;
     border: 3px solid #222;
     transform: translateY(-100px);
@@ -224,7 +229,7 @@ p, a {
 .baixe__download__title {
     text-align: left;
     font-size: .9em;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0;
 }
 
