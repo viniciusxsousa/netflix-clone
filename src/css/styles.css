@@ -112,7 +112,16 @@ p, a {
 .aproveite {
     text-align: center;
     border-bottom: 8px solid #222;
-    padding-bottom: 1em;
+    padding-bottom: 5em;
+    padding-top: 1em;
+}
+
+.aproveite__title {
+    font-size: 2em;
+}
+
+.aproveite__description {
+    font-size: 1.125em;
 }
 
 .aproveite__img {
