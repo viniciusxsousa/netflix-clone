@@ -317,8 +317,12 @@ p, a {
 }
 
 .footer__text {
-    color: #737373;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 1em;
+}
+
+.footer__text a{
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .footer__list {
@@ -335,8 +339,9 @@ p, a {
 
 .footer__list a {
     text-decoration: none;
-    color: #737373;
+    color: rgba(255, 255, 255, 0.7);;
     font-size: .85em;
+    text-decoration: underline;
 }
 
 .footer__list a:hover {
