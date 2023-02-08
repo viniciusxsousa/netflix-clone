@@ -360,7 +360,7 @@ p, a {
     padding-top: 2em;
 }
 
-@media screen and (min-width: 550px){
+@media screen and (min-width: 550px) {
     .background {
         /* height: 100vh; */
         border-bottom: 8px solid #222;
@@ -506,6 +506,25 @@ p, a {
        /*  width: 30%;
         float: left;
         margin: 1% 1.5%; */
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .forms input[type='email'] {
+        width: 50%;
+        border-radius: 0;
+        padding: 1em;
+        border-radius: 5px 0 0 5px
+    }
+
+    .forms input[type='submit'] {
+        width: 30%;
+        margin-left: -6px;
+        border-radius: 0;
+        font-size: 1.5em;
+        padding: 0.48em 1em;
+        transform: translateY(2px);
+        border-radius: 0 5px 5px 0;
     }
 }
 
