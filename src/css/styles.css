@@ -550,11 +550,14 @@ p, a {
     }
 
     .forms input[type='email'] {
-        display: block;
-        width: 31.25em;
+        width: 50%;
         margin: auto;
         margin-bottom: 1em;
         padding: 1em 1em;
+    }
+
+    .forms input[type='submit'] {
+        width: 30%;
     }
 
     .forms input[type='email']::placeholder {
@@ -602,4 +605,22 @@ p, a {
         float: left;
         margin: 1% 1.5%;
      } 
+}
+
+@media screen and (min-width: 960px) {
+    .background {
+        height: 100vh;
+    }
+
+    .topContent__title {
+        font-size: 3em;
+    }
+
+    .topContent__subtitle {
+        font-size: 1.5em;
+    }
+
+    .topContent__paragraf {
+        font-size: 1.25em;
+    }
 }
