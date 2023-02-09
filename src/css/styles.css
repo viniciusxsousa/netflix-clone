@@ -688,4 +688,45 @@ p, a {
     .kid div:nth-child(1) {
         width: 75%;
     }
+
+    .baixe {
+        display: flex;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .baixe div:nth-child(1) {
+        order: 1;
+    }
+
+    .baixe__title {
+        font-size: 3em;
+        margin: .5em 0;
+    }
+    
+    .baixe__description {
+        font-size: 1.5em;
+    }
+
+    .baixe div:nth-child(2) {
+        width: 60%;
+    }
+
+    .baixe div:nth-child(2) img{
+        max-width: 100%;
+    }
+
+    .baixe__download__title {
+        width: 120%;
+    }
+
+    .baixe__download__icon {
+        margin: 0;
+    }
+
+    .footer__list li {
+        width: 46%;
+        float: left;
+        margin: 1% 1.5%;
+     }   
 }
