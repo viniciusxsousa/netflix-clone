@@ -589,9 +589,17 @@ p, a {
         font-size: 1.437em;
     }
 
-    .footer__list li {
+    /* .footer__list li {
         width: 23%;
         float: left;
         margin: 1% 1%;
-    }
+    } */
+}
+
+@media screen and (min-width: 810px) {
+    .footer__list li {
+        width: 22%;
+        float: left;
+        margin: 1% 1.5%;
+     } 
 }
