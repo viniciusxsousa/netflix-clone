@@ -670,4 +670,22 @@ p, a {
     .assista div:nth-child(1) {
         order: 1;
     }
+
+    .kid {
+        display: flex;
+        text-align: left;     
+        align-items: center;   
+    }
+
+    .kid__title {
+        font-size: 3em;
+    }
+
+    .kid__description {
+        font-size: 1.5em;
+    }
+
+    .kid div:nth-child(1) {
+        width: 75%;
+    }
 }
