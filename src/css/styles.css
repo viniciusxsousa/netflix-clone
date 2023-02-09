@@ -624,6 +624,7 @@ p, a {
 
     .topContent__title {
         font-size: 3em;
+        margin-top: 2em;
     }
 
     .topContent__subtitle {
@@ -632,5 +633,23 @@ p, a {
 
     .topContent__paragraf {
         font-size: 1.25em;
+    }
+
+    .aproveite {
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    .aproveite__title {
+        font-size: 3em;
+    }
+
+    .aproveite__description {
+        font-size: 1.5em;
+    }
+
+    .aproveite div:nth-child(1) {
+        width: 75%;
     }
 }
