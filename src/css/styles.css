@@ -652,4 +652,22 @@ p, a {
     .aproveite div:nth-child(1) {
         width: 75%;
     }
+
+    .assista {
+        display: flex;
+        text-align: left;
+        gap: 0px 50px;
+    }
+
+    .assista__title {
+        font-size: 3em;
+    }
+
+    .assista__description {
+        font-size: 1.5em;
+    }
+
+    .assista div:nth-child(1) {
+        order: 1;
+    }
 }
