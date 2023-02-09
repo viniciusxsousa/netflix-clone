@@ -536,6 +536,14 @@ p, a {
     }
 }
 
+@media screen and (min-width: 625px) {
+    .footer__list li {
+        width: 30%;
+        float: left;
+        margin: 1% 1.5%;
+     }   
+}
+
 @media screen and (min-width: 740px) {
     .topContent__paragraf {
         font-size: 1.437em;
