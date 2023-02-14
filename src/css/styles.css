@@ -637,8 +637,11 @@ p, a {
     }
 
     .topContent__title {
+        width: 15em;
         font-size: 3em;
         margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .topContent__subtitle {
