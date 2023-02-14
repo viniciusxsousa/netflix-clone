@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'netflix-sans';
+    src: url('../fonts/NetflixSans_W_Md.woff2');
+}
+
+@font-face {
+    font-family: 'netflix-sans-regular';
+    src: url('../fonts/NetflixSans_W_Rg.woff2');
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'netflix-sans', sans-serif;
+}
+
+.header__img {
+    max-width: 4.6875em;
+}
