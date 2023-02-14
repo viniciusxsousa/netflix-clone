@@ -569,11 +569,11 @@ p, a {
 }
 
 @media screen and (min-width: 740px) {
-    .topContent__paragraf {
+    /* .topContent__paragraf {
         font-size: 1.437em;
     }
 
-    /* .forms input[type='email'] {
+    .forms input[type='email'] {
         width: 50%;
         margin: auto;
         margin-bottom: 1em;
@@ -582,11 +582,11 @@ p, a {
 
     .forms input[type='submit'] {
         width: 30%;
-    } */
+    } 
 
-/*     .forms input[type='email']::placeholder {
+    .forms input[type='email']::placeholder {
         font-size: 1em;
-    } */
+    }  */
 
     .aproveite__img {
         width: 37.5em;
@@ -620,8 +620,8 @@ p, a {
         width: 23%;
         float: left;
         margin: 1% 1%;
-    } */
-}
+    }  */
+} 
 
 @media screen and (min-width: 810px) {
     .footer__list li {
