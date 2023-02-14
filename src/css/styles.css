@@ -747,3 +747,15 @@ p, a {
         margin: 1% 1.5%;
      }   
 }
+
+@media screen and (min-width: 1000px){
+    .topContent__title{
+        width: 100%;
+    }
+
+    .footer__list li {
+        width: 30%;
+        float: left;
+        margin: 1% 1.5%;
+     } 
+}
