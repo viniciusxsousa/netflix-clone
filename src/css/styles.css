@@ -113,8 +113,9 @@ p, a {
 .aproveite {
     text-align: center;
     border-bottom: 8px solid #222;
-    padding-bottom: 5em;
-    padding-top: 1em;
+    padding: 1em 1em 5em;
+   /*  padding-bottom: 5em;
+    padding-top: 1em; */
 }
 
 .aproveite__title {
