@@ -514,6 +514,11 @@ p, a {
 }
 
 @media screen and (min-width: 600px) {
+
+    .topContent__title {
+        padding-top: 2em;
+    }
+
     .forms input[type='email'] {
         width: 50%;
         border-radius: 0;
