@@ -759,3 +759,22 @@ p, a {
         margin: 1% 1.5%;
      } 
 }
+
+@media screen and (min-width: 1200px) {
+    .espacamento {
+        padding: 0 10em;
+    }
+
+    .header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .aproveite, .assista, .kid, .baixe, .perguntas, .footer {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+}
+
+    
