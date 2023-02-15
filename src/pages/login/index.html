@@ -15,36 +15,43 @@
         <img class="header__img" src="../../imgs/logo.png" alt="logo da netflix">
     </header>
 
-    <h2>Entrar</h2>
-
-    <form action="#">
-        <input type="text">
-        <input type="password">
-        <input type="submit" value="Entrar">
-
-        <label>
-            <input type="checkbox"> Lembre-se de mim
-        </label>
-        <a href="#">Precisa de ajuda ?</a>
-    </form>
-
-    <div>
-        <p>Novo por aqui ? <a href="#">Assine agora</a></p>
-
-        <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. Saiba mais.</p>
+    <div class="aux">
+        <h2 class="title">Entrar</h2>
+    
+        <form class="forms" action="#">
+            <input type="text" placeholder="Email ou número de telefone">
+            <input type="password" placeholder="Senha">
+            <input type="submit" value="Entrar">
+    
+            <div>
+                <label>
+                    <input type="checkbox"> Lembre-se de mim
+                </label>
+                <a href="#">Precisa de ajuda ?</a>
+            </div>
+        </form>
+    
+        <div class="content">
+            <p class="content__title">Novo por aqui ? <a href="#">Assine agora</a></p>
+    
+            <p class="content__descript">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais.</a></p>
+        </div>
     </div>
 
-    <footer>
-        <p>Dúvidas ? Ligue 0800 591 8942</p>
+    <footer class="footer clearfix">
+        <div class="aux">
+            <p class="footer__title">Dúvidas ? Ligue 0800 591 8942</p>
 
-        <ul>
-            <li><a href="#">Perguntas frequentes</a></li>
-            <li><a href="#">Termos de Uso</a></li>
-            <li><a href="#">Preferência de cookies</a></li>
-            <li><a href="#">Central de ajuda</a></li>
-            <li><a href="#">Privacidade</a></li>
-            <li><a href="#">Informações corporativas</a></li>
-        </ul>
+            <ul class="footer__list clearfix">
+                <li><a href="#">Perguntas frequentes</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Preferência de cookies</a></li>
+                <li><a href="#">Central de ajuda</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Informações corporativas</a></li>
+            </ul>
+            
+        </div>
     </footer>
 </body>
 </html>
