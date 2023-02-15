@@ -124,3 +124,9 @@ body{
     width: 48%;
     margin: 1%;
 }
+
+@media screen and (min-width: 440px) {
+    .header__img {
+        width: 12em
+    }
+}
