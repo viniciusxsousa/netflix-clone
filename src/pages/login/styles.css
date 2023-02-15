@@ -136,3 +136,37 @@ body{
         width: 30%;
     }
 }
+
+@media screen and (min-width: 740px) {
+    body {
+        background: 
+            radial-gradient(transparent 20%, black),
+            url(../../imgs/background.jpg);
+    }
+
+    .aux {
+        width: 60vw;
+        background-color: rgba(0, 0, 0, .8);
+        padding: 3em 4em;
+        box-sizing: border-box;
+    }
+
+    .content {
+        margin: 5em 0 6em;
+    }
+
+    .footer {
+        border: none;
+        padding: 0;
+    }
+
+    .footer .aux {
+        width: 98vw;
+        padding: 1em 1em 10em;
+        box-sizing: border-box;
+    }
+
+    .footer li{
+        width: 22%;
+    }
+}
