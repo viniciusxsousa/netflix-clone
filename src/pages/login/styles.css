@@ -130,3 +130,9 @@ body{
         width: 12em
     }
 }
+
+@media screen and (min-width: 500px) {
+    .footer__list li{
+        width: 30%;
+    }
+}
