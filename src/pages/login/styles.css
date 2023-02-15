@@ -145,7 +145,7 @@ body{
     }
 
     .aux {
-        width: 60vw;
+        width: 28.125em;
         background-color: rgba(0, 0, 0, .8);
         padding: 3em 4em;
         box-sizing: border-box;
@@ -161,12 +161,19 @@ body{
     }
 
     .footer .aux {
-        width: 98vw;
+        width: 100%;
         padding: 1em 1em 10em;
         box-sizing: border-box;
     }
 
     .footer li{
         width: 22%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer .aux {
+        padding-left: 10em;
+        width: 100%;
     }
 }
