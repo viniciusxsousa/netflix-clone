@@ -241,6 +241,43 @@ body {
     background-color: #202020;
 }
 
+.flickity-prev-next-button.previous {
+    display: none;
+    left: 0px;
+    background: rgb(20, 20, 20);
+    background: linear-gradient(270deg, rgba(20, 20, 20, 1) 0%, rgba(8, 8, 8, 0.003) 85%, rgba(0, 0, 0, 0) 100%);
+}
+
+.flickity-prev-next-button.next {
+    display: none;
+    right: 0px;
+    background: rgb(20, 20, 20);
+    background: linear-gradient(270deg, rgba(8, 8, 8, 0.003) 85%, rgba(0, 0, 0, 0) 100%);
+}
+
+.flickity-button-icon {
+    color: #fff;
+    fill: #fff;
+    z-index: 1000;
+}
+
+.flickity-button-icon:hover {
+    transform: scale(1.40);
+}
+
+.flickity-button:disabled {
+    background: none;
+}
+
+.flickity-button-disabled .flicktity-button-icon {
+    color: none !important;
+    fill: none !important;
+}
+
+.lista:hover .flickity-prev-next-button.previous, .lista:hover .flickity-prev-next-button.next {
+    display: block;
+}
+
 @media screen and (min-width: 500px) {
 
     .carousel-cell {
