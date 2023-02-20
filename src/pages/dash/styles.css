@@ -235,6 +235,14 @@ body {
     transform: translateY(-97%)
 }
 
+@media screen and (min-width: 500px){
+
+    .carousel-cell {
+        width: 28%;
+    }
+    
+}
+
 /* enquanto codo */
 .destaque img {
     max-width: 100%;
