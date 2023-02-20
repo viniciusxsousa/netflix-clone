@@ -57,7 +57,7 @@ body {
 .destaque {
     z-index: 1;
     position: relative;
-    height: 50vh;
+    padding-bottom: 2em;
 }
 
 .destaque__conteiner {
@@ -166,17 +166,18 @@ body {
 }
 
 .lista {
-    margin: 3w 0;
+    margin-left: .8em;
 }
 
 .lista__title {
     position: relative;
     vertical-align: bottom;
-    font-size: 1.25vw;
+    font-size: 0.75em;
     color: #e5e5e5;
     font-weight: 600;
     z-index: 100;
-    margin: 0 4% .5em 4%;
+    margin: 0;
+    margin-bottom: .5em;
 }
 
 .main-carousel {
