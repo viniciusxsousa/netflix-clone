@@ -81,9 +81,52 @@
             </div>
         </div>
 
+        <div class="lista">
+            <h2>Em alta</h2>
+            
+            <div class="main-carousel">
+                <div class="carousel-cell">
+                    <img src="http://occ-0-7361-3852.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdAolhupuT3zTSK3kIw9xMKCAg-5_gM42qm9gtjNftkdbDJnzGK_0f6Fc7YqxVFP8ke_0fwAHak3cp3zzJg9zrTMneHy5m9cW1awNrJukOMISyk6lWU_uJJGlXmQ1_bsWhYc.jpg?r=1c8" alt="capa da série Wandinha">
+                </div>
+                <div class="carousel-cell">
+                    <img src="http://occ-0-7361-3852.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdAolhupuT3zTSK3kIw9xMKCAg-5_gM42qm9gtjNftkdbDJnzGK_0f6Fc7YqxVFP8ke_0fwAHak3cp3zzJg9zrTMneHy5m9cW1awNrJukOMISyk6lWU_uJJGlXmQ1_bsWhYc.jpg?r=1c8" alt="capa da série Wandinha">
+                </div>
+                <div class="carousel-cell">
+                    <img src="http://occ-0-7361-3852.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdAolhupuT3zTSK3kIw9xMKCAg-5_gM42qm9gtjNftkdbDJnzGK_0f6Fc7YqxVFP8ke_0fwAHak3cp3zzJg9zrTMneHy5m9cW1awNrJukOMISyk6lWU_uJJGlXmQ1_bsWhYc.jpg?r=1c8" alt="capa da série Wandinha">
+                </div>
+                <div class="carousel-cell">
+                    <img src="http://occ-0-7361-3852.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdAolhupuT3zTSK3kIw9xMKCAg-5_gM42qm9gtjNftkdbDJnzGK_0f6Fc7YqxVFP8ke_0fwAHak3cp3zzJg9zrTMneHy5m9cW1awNrJukOMISyk6lWU_uJJGlXmQ1_bsWhYc.jpg?r=1c8" alt="capa da série Wandinha">
+                </div>
+                <div class="carousel-cell">
+                    <img src="http://occ-0-7361-3852.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdAolhupuT3zTSK3kIw9xMKCAg-5_gM42qm9gtjNftkdbDJnzGK_0f6Fc7YqxVFP8ke_0fwAHak3cp3zzJg9zrTMneHy5m9cW1awNrJukOMISyk6lWU_uJJGlXmQ1_bsWhYc.jpg?r=1c8" alt="capa da série Wandinha">
+                </div>
+                <div class="carousel-cell">
+                    <img src="http://occ-0-7361-3852.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdAolhupuT3zTSK3kIw9xMKCAg-5_gM42qm9gtjNftkdbDJnzGK_0f6Fc7YqxVFP8ke_0fwAHak3cp3zzJg9zrTMneHy5m9cW1awNrJukOMISyk6lWU_uJJGlXmQ1_bsWhYc.jpg?r=1c8" alt="capa da série Wandinha">
+                </div>
+                <div class="carousel-cell">
+                    <img src="http://occ-0-7361-3852.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdAolhupuT3zTSK3kIw9xMKCAg-5_gM42qm9gtjNftkdbDJnzGK_0f6Fc7YqxVFP8ke_0fwAHak3cp3zzJg9zrTMneHy5m9cW1awNrJukOMISyk6lWU_uJJGlXmQ1_bsWhYc.jpg?r=1c8" alt="capa da série Wandinha">
+                </div>
+            </div>
+        </div>
+
    </div>
 
    <!-- lib do carrosel -->
    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+   <script>
+        var elem = document.querySelector('.main-carousel');
+        var flkty = new Flickity( elem, {
+            // options
+            cellAlign: 'left',
+            contain: true
+        });
+
+        // element argument can be a selector string
+        //   for an individual element
+        var flkty = new Flickity( '.main-carousel', {
+        // options
+        });
+   </script>
 </body>
 </html>
