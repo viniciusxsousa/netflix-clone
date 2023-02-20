@@ -274,8 +274,31 @@ body {
     fill: none !important;
 }
 
-.lista:hover .flickity-prev-next-button.previous, .lista:hover .flickity-prev-next-button.next {
+.lista:hover .flickity-prev-next-button.previous, .lista:hover .flickity-prev-next-button.next, .lista:hover .flickity-page-dots {
     display: block;
+}
+
+.flickity-page-dots {
+    position: absolute;
+    width: 30%;
+    top: -25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 1;
+    right: 30px;
+    height: 20px;
+    text-align: right;
+}
+
+.flickity-page-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    margin: 0 1px;
+    background: #aaa;
+    border-radius: 0%;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 500px) {
