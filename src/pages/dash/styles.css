@@ -235,12 +235,24 @@ body {
     transform: translateY(-97%)
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 500px) {
 
     .carousel-cell {
         width: 28%;
     }
+
+}
+
+@media screen and (min-width: 800px) {
     
+    .carousel-cell {
+        width: 23%;
+    }
+
+    .flickity-prev-next-button {
+        width: 3%;
+    }
+
 }
 
 /* enquanto codo */
