@@ -138,6 +138,9 @@ body {
     bottom: 35%;
     left: 4%;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .destaque__titulo {
@@ -149,12 +152,10 @@ body {
 }
 
 .destaque__sinopse {
-    font-size: .25em;
+    font-size: 1.4vw;
     width: 40%;
-}
-
-.destaque__acoes {
-    margin-top: 3px;
+    margin: 1.5vw 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.45);
 }
 
 .destaque__acoes button {
