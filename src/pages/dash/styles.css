@@ -330,6 +330,17 @@ body {
         width: 28%;
     }
 
+    .header__menu li:nth-child(1) {
+        transform: translate(-144px, 0px);
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .header__menu li:nth-child(1) {
+        transform: translate(-188px, 0px);
+    }
+
 }
 
 @media screen and (min-width: 800px) {
