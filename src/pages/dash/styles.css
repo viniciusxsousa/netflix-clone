@@ -167,6 +167,7 @@ body {
 
 .lista {
     margin-left: .8em;
+    margin-bottom: 1em;
 }
 
 .lista__title {
@@ -192,7 +193,6 @@ body {
 }
 
 .carousel-cell {
-    margin-right: 4px;
     border-radius: 4px;
     overflow: hidden;
     /* opacity: 0.1; */
