@@ -33,7 +33,12 @@ body {
 
 .header__menu li:nth-child(1) {
     font-size: 0.625em;
-    transform: translate(-111px, 4px);
+    transform: translate(-111px, 0px);
+}
+
+.header__menu li:nth-child(1) i {
+    margin-left: 4px;
+    font-size: 1.5em;
 }
 
 .header__menu div li{
