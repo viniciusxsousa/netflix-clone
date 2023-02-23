@@ -15,7 +15,7 @@ body {
     align-items: flex-start;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
-    padding: .5em .8em;
+    padding: .5em 4vw;;
     box-sizing: border-box;
     position: fixed;
     z-index: 10;
@@ -50,7 +50,7 @@ body {
     list-style-type: none;
     padding: 0;
     font-size: 0.5625em;
-    transform: translate(-20vw, -5px);
+    transform: translate(-17vw, -5px);
 }
 
 .header__menu02 li{
@@ -206,7 +206,7 @@ body {
 }
 
 .lista {
-    margin-left: .8em;
+    margin-left: 4vw;
     margin-bottom: 1em;
 }
 
@@ -364,14 +364,23 @@ body {
 
 @media screen and (min-width: 700px) {
 
+    .header__logo {
+        width: 6em;
+        transform: translateY(-8px);
+    }
+
     .header__menu li:nth-child(1) {
-        transform: translate(-244px, 0px);
+        transform: translate(-222px, 0px);
     }
 
 }
 
 @media screen and (min-width: 800px) {
     
+    .header__menu li:nth-child(1) {
+        transform: translate(-266px, 0px);
+    }
+
     .carousel-cell {
         width: 23%;
     }
