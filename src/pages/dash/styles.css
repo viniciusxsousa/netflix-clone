@@ -21,6 +21,12 @@ body {
     z-index: 10;
 }
 
+.header-preto {
+    background-color: rgba(20, 20, 20, 1);
+    position: fixed;
+    z-index: 999;
+}
+
 .header__logo {
     width: 3em;
 }

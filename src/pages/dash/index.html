@@ -336,6 +336,19 @@
         var flkty = new Flickity( '.main-carousel', {
         // options
         });
+
+
+        var $header = document.querySelector('.header');
+  
+
+        window.addEventListener('scroll', function(){
+            if(pageYOffset > 200) {
+                $header.classList.add('header-preto');
+            } else {
+                $header.classList.remove('header-preto');
+            }
+        })
+
    </script>
 </body>
 </html>
