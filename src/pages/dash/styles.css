@@ -521,6 +521,9 @@ body {
         transform: translateX(-280px);
     }
 
+    .lista__title {
+        font-size: 1.1875em;
+    }
 
 }
 
