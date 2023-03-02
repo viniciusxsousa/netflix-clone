@@ -46,11 +46,19 @@ body{
     font-size: 0.875em;
 }
 
-.forms input[type='submit'] {
+.forms__logar{
+    display: block;
+    width: 100%;
     background-color: red;
     color: white;
     margin-top: 2em;
     font-size: 1em;
+    font-weight: 600;
+    padding: 1em;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 1em;
 }
 
 .forms div {
