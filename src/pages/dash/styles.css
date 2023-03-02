@@ -104,6 +104,45 @@ body {
     padding: 0;
 }
 
+.header__opcoes div {
+    display: none;
+}
+
+.header__opcoes:hover div {
+    display: block;
+    position: absolute;
+    right: 15px;
+    background-color: rgba(0, 0, 0, .9);
+    font-size: .9em;
+    width: 230px;
+}
+
+.header__opcoes div li {
+    padding: 1em;
+}
+
+.header__opcoes div li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header__opcoes div li img{
+    position: relative;
+    top: 25px;
+    margin-right: 3px;
+}
+
+.header__opcoes div li i {
+    color: #b3b3b3;
+    font-size: 1.2em;
+    width: 30px;
+}
+
+.header__opcoes div li:last-child {
+    text-align: center;
+}
+
+
 .header__opcoes li:nth-child(1) i {
     display: none;
 }
