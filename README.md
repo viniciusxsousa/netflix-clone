@@ -20,3 +20,6 @@ O objetivo desse projeto foi estudar como o design do netflix foi estruturada, a
 * Carrosel com os títulos presentes.
 
 ### :desktop_computer: Previa
+
+https://user-images.githubusercontent.com/81489425/222323706-7f89fb44-31f1-425d-a39a-15b397ad49d2.mp4
+
