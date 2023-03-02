@@ -18,7 +18,7 @@ body {
     padding: .5em 4vw;;
     box-sizing: border-box;
     position: fixed;
-    z-index: 10;
+    z-index: 999;
 }
 
 .header-preto {
@@ -35,9 +35,10 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    float: left;
 }
 
-.header__menu li:nth-child(1) {
+.header__menuItem {
     font-size: 0.625em;
     transform: translate(-111px, 0px);
 }
@@ -47,9 +48,36 @@ body {
     font-size: 1.5em;
 }
 
-.header__menu div li{
+.header__menu div{
     display: none;
 }
+
+.header__menu:hover div{ 
+    display: block;
+    width: 250px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    padding-top: 50px;
+    z-index: 1000000;
+}
+
+.header__menu div li:nth-child(1) {
+    border-top: 2px solid white;
+}
+
+.header__menu:hover div li {
+    padding: 1em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .9);
+    transition: all .3s ease-in ;
+    cursor: pointer;
+}
+
+.header__menu:hover div li:hover {
+    background-color: rgba(20, 20, 20, 0.9);
+}
+
 
 .header__menu02 {
     display: none;
